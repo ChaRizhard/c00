@@ -1,8 +1,8 @@
 #include <unistd.h>
 
-void ft_print_reverse_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
-        char i;
+        char	i;
         i = 122;
 
         while (i <= 122 && i >=97)

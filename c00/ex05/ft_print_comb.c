@@ -1,11 +1,11 @@
 #include <unistd.h>
 
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
     write (1, &c, 1);
 }
 
-void ft_printNum(int a, int b, int c)
+void	ft_printNum(int a, int b, int c)
 {
     ft_putchar(a);
     ft_putchar(b);
@@ -14,11 +14,11 @@ void ft_printNum(int a, int b, int c)
     ft_putchar(' ');
 }
 
-void ft_print_comb(void)
+void	ft_print_comb(void)
 {
-        int a;
-        int b;
-        int c;
+        int	a;
+        int	b;
+        int	c;
 
         a = '0';
 

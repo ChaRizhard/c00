@@ -1,8 +1,8 @@
 #include <unistd.h>
 
-void ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-        char i;
+        char	i;
         i = 97;
 
         while (i >= 97 && i <= 122)
